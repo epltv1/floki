@@ -1,0 +1,69 @@
+/* assets/css/app.min.css */
+body {
+    background-color: #f8f9fa; /* Light gray background for the page */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.auth-header-box {
+    background-color: #000; /* Black header for logo and title */
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.auth-logo {
+    max-height: 90px;
+}
+
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    color: #000;
+}
+
+.form-control:focus {
+    border-color: #00A1F5;
+    box-shadow: 0 0 0 0.2rem rgba(0, 161, 245, 0.25);
+}
+
+.form-check-input:checked {
+    background-color: #00A1F5;
+    border-color: #00A1F5;
+}
+
+.thumb-md {
+    width: 40px;
+    height: 40px;
+}
+
+.bg-blue-subtle {
+    background-color: #e9f0ff !important;
+}
+
+.bg-info-subtle {
+    background-color: #e7f1ff !important;
+}
+
+.bg-danger-subtle {
+    background-color: #ffeded !important;
+}
+
+.text-blue {
+    color: #0d6efd !important;
+}
+
+.text-info {
+    color: #0dcaf0 !important;
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+.text-mute {
+    color: #6c757d !important;
+}
